@@ -1,22 +1,15 @@
-import { About } from '@/components/about';
-import { Contact } from '@/components/contact';
-import { Experience } from '@/components/experience';
-import { Footer } from '@/components/footer';
-import { Header } from '@/components/header';
-import { Hero } from '@/components/home';
-import { Intro } from '@/components/intro';
-import { Projects } from '@/components/projects';
-import { SectionDivider } from '@/components/section-divider';
-import { ThemeToggle } from '@/components/theme-toggle';
+import { About } from '@/components/pages/about';
+import { Contact } from '@/components/pages/contact';
+import { Experience } from '@/components/pages/experience';
+import { Footer } from '@/components/ui/footer';
+import { Header } from '@/components/ui/header';
+import { Hero } from '@/components/pages/home';
+import { Intro } from '@/components/pages/intro';
+import { Projects } from '@/components/pages/projects';
+import { SectionDivider } from '@/components/ui/section-divider';
+import { ThemeToggle } from '@/components/ui/theme-toggle';
 
 const Home = async () => {
-  // const starsCount = await Promise.all(
-  //   projectsData.map(async ({ links }) => {
-  //     const res = await fetch(links.githubApi, { cache: 'no-store' });
-  //     const data = await res.json();
-  //     return data.stargazers_count;
-  //   })
-  // );
 
   return (
     <>

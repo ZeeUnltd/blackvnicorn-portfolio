@@ -2,8 +2,8 @@
 
 import { motion } from 'framer-motion';
 
-import { SectionHeading } from '@/components/section-heading';
-import { Skills } from '@/components/skills';
+import { SectionHeading } from '@/components/ui/section-heading';
+import { Skills } from '@/components/pages/skills';
 import { useSectionInView } from '@/hooks/use-section-in-view';
 
 export const About = () => {

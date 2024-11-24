@@ -9,8 +9,8 @@ import {
   VerticalTimelineElement,
 } from 'react-vertical-timeline-component';
 
-import { Icons } from '@/components/icons';
-import { SectionHeading } from '@/components/section-heading';
+import { Icons } from '@/components/ui/icons';
+import { SectionHeading } from '@/components/ui/section-heading';
 import { useSectionInView } from '@/hooks/use-section-in-view';
 import { experiencesData } from '@/lib/data';
 

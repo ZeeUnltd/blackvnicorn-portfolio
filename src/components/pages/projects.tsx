@@ -2,8 +2,8 @@
 
 import { motion } from 'framer-motion';
 
-import { Project } from '@/components/project';
-import { SectionHeading } from '@/components/section-heading';
+import { Project } from '@/components/pages/project';
+import { SectionHeading } from '@/components/ui/section-heading';
 import { useSectionInView } from '@/hooks/use-section-in-view';
 import { projectsData } from '@/lib/data';
 
