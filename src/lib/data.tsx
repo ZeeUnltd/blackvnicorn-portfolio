@@ -86,6 +86,67 @@ export const projectsData: TProjectLinks[] = [
     },
   },
   {
+    image: '/projects/ag-logo.svg',
+    title: 'Portfolio',
+    description: (
+      <div className="space-y-2">
+        <p>Created a NextJS boilerplate for my personal portfolio</p>
+        <p>
+          Exciting use of NextJS/React with some interesting libraries I learned about recently, enjoy.
+        </p>
+      </div>
+    ),
+    technologies: [
+      'Next JS',
+      'Typescript',
+      'Framer Motion',
+      'Tailwind',
+      'Vercel',
+      'React-Hook-Form',
+      'Shadcn',
+      'TanStack-Table'
+    ],
+    links: {
+      preview: 'https://blackvnicorn-portfolio.vercel.app/',
+      github: 'https://github.com/ZeeUnltd/blackvnicorn-portfolio',
+    },
+  },
+  {
+    image: '/projects/ag-logo.svg',
+    title: 'Quick Dashboard for React',
+    description: (
+      <div className="space-y-2">
+        <p>Created a ReactJS boilerplate for dashboards layout</p>
+        <p>
+          Exciting assessment completion for a React Dashboard App, 
+          uses some interesting features like Storybook, React-Testing-Library and a whole lot of technologies I learnt thier usage on.
+        </p>
+        <p>
+          The project is a mini Full-stack app, as it contains a node server serving a mock DB for limited performance and interactivity.
+        </p>
+
+      </div>
+    ),
+    technologies: [
+      'Full-Stack Platform',
+      'React JS',
+      'NodeJS',
+      'Typescript',
+      'Styled-components',
+      'Saas',
+      'Render',
+      'React-Hook-Form',
+      'Concurrently',
+      'React-testing-library',
+      'Storybook',
+      'Jest'
+    ],
+    links: {
+      preview: 'https://busha-frontend-test-414g.onrender.com',
+      github: 'https://github.com/ZeeUnltd/busha-frontend-test',
+    },
+  },
+  {
     image: 'https://leatherback.co/favicon.png',
     title: 'Leatherback App',
     description: (
@@ -197,7 +258,6 @@ export const projectsData: TProjectLinks[] = [
       preview: 'https://unsplash-cowrie.netlify.app/',
     },
   },
-
   {
     image: '/projects/robin-logo.svg',
     title: 'Nuxt 3 Dashboard',
