@@ -3,23 +3,10 @@ import '@/styles/style.css';
 
 import React, { useEffect, useState } from 'react';
 export const Hero = () => {
-  // const textMarquee: string[] = ['Blackvnicorn', 'Software Developer |', 'Designs',
-  //     'Brands', '| Frontend Development', ' | Software.']
-  // const [displayText, setDisplayText] = useState(textMarquee[0])
-  // // let displayText =
-  // useEffect(() => {
-  //     let currentIndex = 0;
-  //     const marq = setInterval(() => {
-  //         currentIndex = (currentIndex + 1) % textMarquee.length;
-  //         setDisplayText(textMarquee[currentIndex]);
-  //     }, 3000);
-  //     return () => clearInterval(marq);
-  // }, [displayText])
   return (
     <div className="hero">
       <div className="once-in p-8">
-        <div>
-          {/* className='[font-size:_clamp(2em,5vw,10em)]' */}
+        <div className='px-10'>
           <img
             className="w-14 cursor-pointer hover:sepia"
             src="https://res.cloudinary.com/beam-sensation/image/upload/v1720735262/portfolio/ag-logo_yy6lau.svg"
@@ -27,7 +14,7 @@ export const Hero = () => {
           />
         </div>
         <div className="mt-16 md:mt-[12em] md:flex">
-          <div className="px-10 md:w-1/2 md:text-left">
+          <div className="px-4 md:px-10 md:w-1/2 md:text-left">
             <h1 className="text-[4em]">Hi, I am</h1>
             <article>
               <div className="waviy">
@@ -47,7 +34,7 @@ export const Hero = () => {
             </article>
 
             <h6 className="md:w-90 text-[1.4em]">
-              I am a result-oriented Frontend Developer with over 5 years of
+               a result-oriented Frontend Developer with over 6 years of
               experience and proven knowledge of intuitive multi-user
               interfaces, web design, and mobile responsive web platform
               development. I aim to leverage my skills to successfully deliver
@@ -55,7 +42,6 @@ export const Hero = () => {
             </h6>
           </div>
         </div>
-        {/* <p className="hero-intro w-full inline-flex marquee-text" >{displayText}</p> */}
       </div>
       <div className="marquee">
         <div className="marquee-box-one">
@@ -76,11 +62,6 @@ export const Hero = () => {
           <div className="marquee-content-two"></div>
         </div>
 
-        {/* <div className="marquee-box-two">
-                    <div className="marquee-content-two">
-                    ...
-                    </div>
-                </div> */}
       </div>
     </div>
   );
