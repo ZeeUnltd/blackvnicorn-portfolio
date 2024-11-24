@@ -188,24 +188,49 @@ export const Icons = {
     </svg>
   ),
   vue: (props: LucideProps) => (
-    <img
-      src="data:image/png;base64,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"
-      alt="Vue JS Logo"
-      className={customClass}
-    />
+    <svg
+      {...props}
+      xmlns="http://www.w3.org/2000/svg"
+      fill="#000000"
+      width="800px"
+      height="800px"
+      viewBox="0 0 32 32"
+    >
+      <path d="M24.306 4.019h-4.806l-3.5 5.537-3-5.537h-11l14 23.981 14-23.981zM5.481 6.019h3.363l7.156 12.387 7.15-12.387h3.363l-10.512 18.012z" />
+    </svg>
   ),
   nuxt: (props: LucideProps) => (
-    <img
-      src="https://static-00.iconduck.com/assets.00/nuxt-js-icon-144x107-d25rrwt5.png"
-      alt="Nuxt JS Logo"
-      className={customClass}
-    />
+    <svg
+      {...props}
+      xmlns="http://www.w3.org/2000/svg"
+      fill="#000000"
+      width="800px"
+      height="800px"
+      viewBox="0 0 32 32"
+    >
+      <path d="M26.297 27.031l0.031-0.063c0.031-0.047 0.052-0.099 0.073-0.156v-0.005c0.099-0.26 0.12-0.536 0.073-0.813v0.010c-0.052-0.292-0.156-0.573-0.313-0.828l0.010 0.010-7.094-12.474-1.083-1.891-8.156 14.365c-0.141 0.25-0.229 0.521-0.276 0.802v0.016c-0.057 0.323-0.021 0.651 0.109 0.953l-0.005-0.010c0.016 0.047 0.042 0.089 0.068 0.135l-0.005-0.005c0.214 0.365 0.667 0.802 1.667 0.802h13.198c0.208 0 1.234-0.042 1.708-0.849zM17.995 14.609l6.479 11.396h-12.953zM31.661 25.188l-9.354-16.479c-0.099-0.177-0.635-1.052-1.578-1.052-0.422 0-1.026 0.182-1.521 1.047l-1.208 2.12 1.073 1.896 1.667-2.953 9.255 16.245h-3.521c0.047 0.271 0.021 0.547-0.073 0.807v-0.010c-0.021 0.057-0.042 0.115-0.073 0.167v-0.005l-0.031 0.063c-0.474 0.807-1.495 0.849-1.693 0.849h5.505c0.203 0 1.219-0.042 1.693-0.849 0.214-0.37 0.359-0.984-0.141-1.844zM9.74 27.078c-0.021-0.042-0.042-0.083-0.063-0.125v-0.005c-0.13-0.302-0.172-0.63-0.115-0.953v0.010h-7.563l11.24-19.776 3.687 6.484 1.073-1.891-3.219-5.667c-0.089-0.161-0.63-1.036-1.568-1.036-0.422 0-1.031 0.182-1.521 1.052l-11.385 20.016c-0.099 0.172-0.568 1.078-0.099 1.885 0.214 0.37 0.667 0.802 1.667 0.802h9.531c-0.99 0-1.453-0.427-1.667-0.802z" />
+    </svg>
   ),
   node: (props: LucideProps) => (
-    <img
-      src="https://static-00.iconduck.com/assets.00/node-icon-144x91-kq8c98mh.png"
-      alt="Node JS Logo"
-      className={customClass}
-    />
+    <svg
+      {...props}
+      xmlns="http://www.w3.org/2000/svg"
+      width="800px"
+      height="800px"
+      viewBox="0 0 48 48"
+    >
+      <title>node-js</title>
+      <g id="Layer_2" data-name="Layer 2">
+        <g id="invisible_box" data-name="invisible box">
+          <rect width="48" height="48" fill="none" />
+        </g>
+        <g id="Q3_icons" data-name="Q3 icons">
+          <g>
+            <path d="M42.3,11.8,25.7,2.4a4,4,0,0,0-3.4,0L5.7,11.8A3.4,3.4,0,0,0,4,14.7V33.3a3.4,3.4,0,0,0,1.7,2.9l4.4,2.5a7.2,7.2,0,0,0,3.8,1c3.1,0,4.9-1.9,4.9-5.1V16.3a.5.5,0,0,0-.5-.5H16.2a.5.5,0,0,0-.5.5V34.6c0,1.5-1.5,2.9-3.9,1.7L7.2,33.7a.5.5,0,0,1-.2-.4V14.7a.8.8,0,0,1,.2-.5L23.7,4.9h.6l16.5,9.3a.8.8,0,0,1,.2.5V33.3a.5.5,0,0,1-.2.4L24.3,43a.6.6,0,0,1-.6,0l-4.2-2.4a.3.3,0,0,0-.4,0l-2.5,1.1c-.3.1-.7.2.1.7l5.6,3.1a3.1,3.1,0,0,0,3.4,0l16.6-9.3A3.4,3.4,0,0,0,44,33.3V14.7A3.4,3.4,0,0,0,42.3,11.8Z" />
+            <path d="M29.1,30.3c-4.4,0-5.3-1-5.7-3.1a.4.4,0,0,0-.4-.4H20.8a.4.4,0,0,0-.4.4c0,2.7,1.5,6,8.7,6,5.2,0,8.2-2,8.2-5.5s-2.4-4.5-7.5-5.1-5.6-1-5.6-2.2.4-2.2,4.2-2.2,4.7.7,5.2,2.9a.5.5,0,0,0,.5.4h2.1l.4-.2a.4.4,0,0,0,.1-.3c-.3-3.9-3-5.7-8.3-5.7s-7.5,2-7.5,5.2,2.8,4.5,7.3,5,5.9,1.2,5.9,2.3S32.6,30.3,29.1,30.3Z" />
+          </g>
+        </g>
+      </g>
+    </svg>
   ),
 };

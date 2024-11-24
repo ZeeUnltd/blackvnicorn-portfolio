@@ -3,8 +3,8 @@
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 
-import { Button } from '@/components/button';
-import { Icons } from '@/components/icons';
+import { Button } from '@/components/ui/button';
+import { Icons } from '@/components/ui/icons';
 import { useSectionInView } from '@/hooks/use-section-in-view';
 
 export const Intro = () => {

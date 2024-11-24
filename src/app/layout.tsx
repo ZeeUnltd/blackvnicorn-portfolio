@@ -3,9 +3,9 @@ import '@/styles/globals.css';
 import { PropsWithChildren } from 'react';
 import type { Metadata } from 'next';
 
-import { ActiveSectionProvider } from '@/components/active-section-provider';
-import { ThemeProvider } from '@/components/theme-provider';
-import { Toaster } from '@/components/toaster';
+import { ActiveSectionProvider } from '@/components/ui/active-section-provider';
+import { ThemeProvider } from '@/components/ui/theme-provider';
+import { Toaster } from '@/components/ui/toaster';
 import { fonts } from '@/lib/fonts';
 import { siteConfig } from '@/lib/site-config';
 import { cn } from '@/lib/utils';
