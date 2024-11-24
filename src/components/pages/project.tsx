@@ -1,11 +1,6 @@
 'use client';
 
 import {
-  AwaitedReactNode,
-  JSXElementConstructor,
-  ReactElement,
-  ReactNode,
-  ReactPortal,
   useState,
 } from 'react';
 import { motion } from 'framer-motion';
