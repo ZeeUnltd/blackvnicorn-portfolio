@@ -80,7 +80,7 @@ export const projectsData: TProjectLinks[] = [
       'Tanstack Query',
     ],
     links: {
-      preview: 'https://aop.ubagroup.com/businessaccountopening/',
+      preview: 'https://www.rynopay.io',
     },
   },
   {
