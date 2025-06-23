@@ -36,13 +36,14 @@ export const projectsData: TProjectLinks[] = [
   // https://aop.ubagroup.com/businessaccountopening/favicon.ico
   {
     image: 'https://res.cloudinary.com/beam-sensation/image/upload/v1750683616/portfolio/wzzuoxfva0e66h3wqtfq.svg',
-    title: 'Ryno Finance',
+    title: 'TGIPAY Finance',
     description: (
       <div className="space-y-2">
-        <p>Revamped the Landing Page and building dashboards.</p>
-        <p>
+        <p>Currently supporting all the products from the organization</p>
+        <p>Going Live soon, so I'd give more details when live.</p>
+{/*         <p>
           Love poured into this project, Enjoy!
-        </p>
+        </p> */}
 {/*         <p>
           Since there are several products with different onboarding processes,
           the requirement was to create just one platform that houses all the
@@ -77,10 +78,10 @@ export const projectsData: TProjectLinks[] = [
       'TailwindCss',
       'Github',
       'ShadCn',
-      'Tanstack Query',
+      'React Query',
     ],
     links: {
-      preview: 'https://www.rynopay.io',
+      preview: 'https://www.tgipay.com',
     },
   },
   {
@@ -381,6 +382,55 @@ export const projectsData: TProjectLinks[] = [
 // https://nesh-com-ng.squarespace.com/config/settings/domains-email/domains/built-in/nesh-com-ng.squarespace.com
 export const experiencesData = [
   {
+    title: 'TGIPAY FINANCE',
+    location: 'VGC Lagos',
+    description: (
+      // `● Collaborated with a team of 10 designers and developers, working closely with stakeholders to deliver a high-quality,
+      //   user-centric product that met or exceeded all assigned deadlines.
+
+      //   ● Significantly contributed to revenue growth, scaling from $10,000 to over $6 million in monthly transactions.
+      //   ● Transformed more than 50 design prototypes into fully functional web interfaces using HTML, CSS, and JavaScript,
+      //   leading to substantially improved user experiences.
+
+      //   ● Converted a total of 200+ email templates from raw markup to visually appealing, responsive designs, elevating email
+      //   communication.
+
+      //   ● Seamlessly translated 100% of UI/UX designs into intuitive web interfaces, consistently meeting or surpassing all
+      //   assigned deadlines.
+
+      //   ● Played an integral role in developing and delivering over 30 critical business features and modules, pivotal to the
+      //   successful completion of key projects.
+
+      //   ● Instrumental in the launch of a new product targeting the competitive digital payments market in Nigeria, projected to
+      //   reach a market volume of $27.89 billion by 2027.
+
+      //   ● Designed and executed a strategic pricing strategy that yielded a 50% increase in profitability for the new product line.`,,
+      <ul>
+        <li>
+          ● Leading the Frontend Engineering Department
+        </li>
+        <li>
+          ● Transformed more than 50 design prototypes into fully functional web
+          interfaces using HTML, CSS, and JavaScript, TypeScript, Vue and Nuxt,
+        </li>
+        <li>
+          ● Collaborated with a team of more than 10 designers and developers,
+          working closely with stakeholders to deliver a high-quality,
+          user-centric product that met or exceeded all assigned deadlines.
+        </li>
+        <li>
+          ● Supporting all the products withing the business.
+        </li>
+        <li>
+          ● Played an integral role in developing and delivering over 30
+          critical business features and modules, pivotal to the successful
+          completion of key projects.
+        </li>
+      </ul>
+    ),
+    date: '2024 - Present',
+  },
+  {
     title: 'Leatherback',
     location: 'London, UK. (Remote)',
     description: (
@@ -431,7 +481,7 @@ export const experiencesData = [
         </li>
       </ul>
     ),
-    date: '2024 - Present',
+    date: '2021 - 2024',
   },
   {
     title: 'United Bank For Africa',
