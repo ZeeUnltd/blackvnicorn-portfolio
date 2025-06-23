@@ -35,6 +35,55 @@ export type TProjectLinks = {
 export const projectsData: TProjectLinks[] = [
   // https://aop.ubagroup.com/businessaccountopening/favicon.ico
   {
+    image: 'https://res.cloudinary.com/beam-sensation/image/upload/v1750683616/portfolio/wzzuoxfva0e66h3wqtfq.svg',
+    title: 'Ryno Finance',
+    description: (
+      <div className="space-y-2">
+        <p>Revamped the Landing Page and build the Admin Platform for Ryno Finnace</p>
+        <p>
+          Love poured into this project, Enjoy!
+        </p>
+{/*         <p>
+          Since there are several products with different onboarding processes,
+          the requirement was to create just one platform that houses all the
+          onboarding processes together in one.
+        </p>
+        <p>
+          After several iterations on design, I developed all the components
+          without overloading the application with several libraries, leveraging
+          i18n as we support multiple languages, and used Vue Js for
+          interactivity and Vuex for state management.
+        </p>
+        <p>
+          I deployed to the testing/staging server and completed the application
+          on time after several iterations of adoption. The corporate team
+          department adopted the change instantly and deployed the application
+          before the other departments were ready.
+        </p>
+
+        <p>
+          The major challenge confronted here was the selection of distinctive
+          divisions as the backend assets at the time were not REST APIs, so it
+          was reliant on each division to supply the necessary resources for the
+          plug-in. I am happy the platform is still running and usable for the
+          following million clients since I cleared out the organization.
+        </p> */}
+      </div>
+    ),
+    technologies: [
+      'Typescript',
+      'Javascript',
+      'React',
+      'TailwindCss',
+      'Github',
+      'ShadCn',
+      'Tanstack Query',
+    ],
+    links: {
+      preview: 'https://aop.ubagroup.com/businessaccountopening/',
+    },
+  },
+  {
     image: 'https://aop.ubagroup.com/businessaccountopening/favicon.ico',
     title: 'Account Opening Revamp Project',
     description: (
