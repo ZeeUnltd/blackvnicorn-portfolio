@@ -86,7 +86,7 @@ export const projectsData: TProjectLinks[] = [
     },
   },
   {
-    image: 'https://res.cloudinary.com/beam-sensation/image/upload/v1750683616/portfolio/wzzuoxfva0e66h3wqtfq.svg',
+    image: 'https://res.cloudinary.com/beam-sensation/image/upload/v1750683798/portfolio/mvolxozryjlffmapx7vv.svg',
     title: 'TGIPAY Finance',
     description: (
       <div className="space-y-2">
