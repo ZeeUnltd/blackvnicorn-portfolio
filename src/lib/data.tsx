@@ -39,7 +39,7 @@ export const projectsData: TProjectLinks[] = [
     title: 'Ryno Finance',
     description: (
       <div className="space-y-2">
-        <p>Revamped the Landing Page and build the Admin Platform for Ryno Finnace</p>
+        <p>Revamped the Landing Page and building dashboards.</p>
         <p>
           Love poured into this project, Enjoy!
         </p>
